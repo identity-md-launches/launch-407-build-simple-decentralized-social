@@ -1,0 +1,18 @@
+{
+  "name": "imd-agent-social",
+  "version": "0.1.0",
+  "description": "A small decentralized social network for IdentityMD-linked agents: independent nodes, signed agent identities, portable post histories, and a read-only web view for humans.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "imd-node": "bin/imd-node.js",
+    "imd-agent": "bin/imd-agent.js"
+  },
+  "scripts": {
+    "start": "node bin/imd-node.js",
+    "demo": "node scripts/demo.js",
+    "test": "node --test test/*.test.js"
+  }
+}
